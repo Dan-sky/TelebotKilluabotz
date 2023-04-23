@@ -38,7 +38,7 @@ module.exports = alpha = async (alpha, bot) => {
         const user = simple.getUserName(alpha.message.from)
         const pushname = user.full_name;
         const user_id = alpha.message.from.id + " "
-        const username = alpha.message.from.username ? alpha.message.from.username : "zeeone_ofc";
+        const username = alpha.message.from.username ? alpha.message.from.username : "kyrosxd";
         const isCreator = OWNER[0].replace("https://t.me/", '') == alpha.update.message.from.username
         const from = alpha.message.chat.id
 
